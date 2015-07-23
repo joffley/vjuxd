@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BBC News UX&D Visual Journalism Prototype Master - Full Frame</title>
+	
+		<style type="text/css">
+		
+		#header,#footer,#wrapper{
+			width:100%;
+		}
+		
+		#header{
+			background:url(images/header-bg.png);
+			height:80px;
+		}
+		
+		#header-inner, #footer-inner{
+			width:1008px;
+			margin:auto;
+		}
+		
+		#header-inner{
+			background:url(images/header.png) no-repeat;
+			height:80px;
+		}
+		
+		#intro{
+			height:600px;
+			background:#ccc;
+		}
+		
+		#intro h1{
+			padding:128px 0 32px 0;
+		}
+		
+		#intro p{
+			font-size:24px;
+			text-align:center;
+		}
+				
+		#content p{
+			width:646px;
+			margin:auto;
+		}
+		
+		
+		body{
+			margin:0;
+			background:#fff;
+			color:#404040;
+			font-family:helvetica,arial,sans-serif;
+		}
+		
+		h1,h2,h3,h4,h5,h6{
+			font-weight:bold;
+			padding:0;
+			margin:0;
+			text-align:center;
+		}
+		
+		h1{
+			font-size: 86px;
+			color:#1e1e1e;
+		}
+		
+		
+		/*
+		
+		greyscale...
+		
+		*/
+		
+		body.grey #header, body.grey #header-inner, body.grey #footer, body.grey #footer-inner{
+			filter: grayscale(100%);
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+		}
+		
+		
+		
+		
+		
+		@media (max-width: 1008px) {
+		  html { background: blue; }
+		}
+		@media (max-width: 600px) {
+		  html { background: green; }
+		}
+		</style>
+
+	</head>
+	
+<body>
+
+<div id="header">
+	<div id="header-inner">
+		<div id="search">
+		
+		</div>
+	</div>
+</div>
+
+<div id="content">
+
+	<div id="intro">
+
+		<h1>Hello World</h1>
+
+		<p>In 2000, the world's leaders joined together in a pledge to radically improve the lives of the poorest people.</p>
+
+	</div>
+
+	
+	
+</div>
+
+</body>
+</html>
